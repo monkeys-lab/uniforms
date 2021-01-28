@@ -30,7 +30,7 @@ function Text({
         id={id}
         name={name}
         onChange={event => onChange(event.target.value)}
-        placeholder={placeholder}
+        placeholder={'placeholder: ' + placeholder}
         ref={inputRef}
         type={type}
         value={value ?? ''}
